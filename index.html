@@ -17,14 +17,16 @@
     <!-- Add a shortcut icon -->
     <link rel="shortcut icon" href="/src/images/kapanga.png" type="image/png">
 
-    
+
     <!-- CSS  -->
     <link rel="stylesheet" href="src/styles/styles.css">
     <!-- TITLE  -->
     <title>KapangA</title>
 </head>
 <body>
+    <!-- HEADER -->
     <header>
+        <!-- NAV // HAMBURGER -->
         <nav class="navbar">
             <a href="#" class="nav-branding">KapangA</a>
             <ul class="nav-menu">
@@ -48,6 +50,98 @@
             </div>
         </nav>
     </header>
+
+     <main>
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero__overlay">
+                <h2>KapangA 30 años</h2>
+                <p>Tour in progress</p>
+                <a href="#events" class="btn">View Events</a>
+            </div>
+        </section>
+
+        <!-- EVENTS -->
+        <section id="events" class="events container">
+            <h2>Upcoming Events</h2>
+
+            <!-- Extra points: table -->
+            <table class="events__table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>City</th>
+                        <th>Venue</th>
+                        <th>Tickets</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1 May</td>
+                        <td>Santa Fe</td>
+                        <td>Festival Tribus</td>
+                        <td><button>Buy</button></td>
+                    </tr>
+                    <tr>
+                        <td>16 May</td>
+                        <td>Buenos Aires</td>
+                        <td>Vorterix</td>
+                        <td><button>Buy</button></td>
+                    </tr>
+                    <tr>
+                        <td>22 May</td>
+                        <td>Málaga</td>
+                        <td>Argentina Vibra</td>
+                        <td><button>Buy</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="about container">
+            <h2>About the Band</h2>
+
+            <div class="about__content">
+                <img src="./src/images/img-1.jpg" alt="Band photo">
+
+                <article>
+                    <p>
+                        KapangA is an Argentine band formed in 1989 in the locality of Quilmes, Buenos Aires. 
+                        The band is known for its energetic and lively music, 
+                        which combines elements of rock, punk, ska, and cuarteto.
+                        Over the years, KapangA has released several albums and 
+                        has become one of the most popular bands in Argentina, with a large and dedicated fan base.
+                    </p>
+
+                    <!-- Required list -->
+                    <h3>Our Influences</h3>
+                    <ul>
+                        <li>Cuarteto</li>
+                        <li>Punk Rock</li>
+                        <li>SKA</li>
+                        <li>Rock and Roll</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- MEDIA -->
+        <section id="media" class="media container">
+            <h2>Multimedia</h2>
+
+            <div class="media__grid">
+                <img src="./src/images/img-2.jpg" alt="">
+                <img src="./src/images/img-3.jpg" alt="">
+                <img src="./src/images/img-4.jpg" alt="">
+                <img src="./src/images/img-5.jpg" alt="">
+                <img src="./src/images/img-6.jpg" alt="">
+                <img src="./src/images/img-7.jpg" alt="">
+            </div>
+        </section>
+
+    </main>
         <section id="Concert" class="contact">
             <h2 class="section-title">Contact us</h2>
             <form class="contact-form" id="contact-form">
